@@ -64,6 +64,9 @@
 		<br>
 		<label>Activities:<br><textarea name="activities" id="activities"><?php echo $_SESSION['activities'] ?></textarea></label>
 	</div>
-	
+	<script type="text/javascript">
+    	var ele = document.getElementById("activities");
+    	ele.scrollTop = ele.scrollHeight - ele.clientHeight;
+	</script>
 </body>
 </html>
