@@ -1,0 +1,29 @@
+#container {
+	width: 100%;
+}
+
+.building {
+	display: inline-block;
+	height: 150px;
+	width: 150px;
+	outline: 1px solid black;
+	overflow: hidden;
+	padding:20px;
+}
+
+.building h3 {
+	text-align: center;
+	margin-top: 0px;
+}
+
+.building form {
+	text-align: center;
+}
+
+textarea {
+	border: 1px solid black;
+	resize: none;
+	width: 770px;
+	height: 150px;
+	overflow-y: scroll;
+}
